@@ -1,97 +1,13 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ATIVIDADE PRÁTICA - FUNDAMENTOS DA PROGRAMAÇÃO WEB</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="container">
-        <h1>Filipe Mariano Rocha</h1>
-        <br> 
-        <button onclick="alternarTema()">modo escuro/modo claro</button>
-        <button onclick="toggleMenu()">☰ Menu</button>
-    </header>
-    <nav class="menu">
-        <ul>
-            <li><a href="#sobremim">Sobre Mim</a></li>
-            <li><a href="#formacao">Formação</a></li>
-            <li><a href="#portfolio">Portfólio</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-        <br>
-    </nav>
-    <section id = "sobremim">
-        <h2>Sobre Mim</h2>
-        <p>Sou ex-militar concursado da Marinha do Brasil e atualmente estou em transição para a área de tecnologia, focando em aprender e crescer como desenvolvedor. As diversas experiências que tive no meio militar contribuíram para o desenvolvimento de habilidades que hoje aplico nos meus estudos e projetos em tecnologia. Eu gosto de desenhar, jogar,assistir animes e ler alguns livros também, costumo também escrever alguns poemas ou escrever meus sentimentos em alguma folha de caderno.</p>
-        <a href="poema.html" target="_blank"> Leia meu poema </a>
-        <div class="desenhos">
-           <img src="imagens_desenhos/desenho.jpg" alt="Desenho artístico">
-           <img src="imagens_desenhos/desenho2.jpg" alt="Desenho artístico">
-           <img src="imagens_desenhos/desenho3.jpg" alt="Desenho artístico">
-           <img src="imagens_desenhos/desenho4.jpg" alt="Desenho artístico">
-           <img src="imagens_desenhos/desenho5.jpg" alt="Desenho artístico">
-           <img src="imagens_desenhos/desenho6.jpg" alt="Desenho artístico">
-           <img src="imagens_desenhos/desenho7.jpg" alt="Desenho artístico">
-        </div>
-        <br><br>
-        <h2>Militarismo</h2>
-        <p>Minha primeira experiência no trabalho foi com a área militar. Durante esse período eu aprendi muitas habilidade como responsabilidade, disciplina e atenção aos detalhes. Além de outras habilidades como: </p>
-        <ul>
-            <li>Vigilância de áreas restritas utilizando sistemas de câmeras de segurança, observando movimentações suspeitas e garantindo a integridade do local;</li>
-            <br>
-            <li>Fazia relatórios no Microsoft Word com base nas imagens monitoradas;</li>
-            <br>
-            <li>Eu também participei de diversas tarefas operacionais e de manutenção.</li>
-            <br>
-        </ul>  
-        <div class="marinha">
-           <img src ="imagens_marinha/marinha.jpg" alt="foto militar">
-           <img src ="imagens_marinha/marinha2.jpg" alt="foto militar">
-           <img src ="imagens_marinha/marinha3.jpg" alt="foto militar">
-        </div>
-    </section>
-    <section id = "formacao">
-        <h2>Formação</h2>
-        <p>Eu atualmente estou fazendo faculdade de Análise e Desenvolvimento de Sistemas ,ao mesmo tempo ,eu também comecei a fazer alguns cursos por fora relacionados a área de tecnologia nos quais. além de treinar e aprender alguns idiomas.</p>
-        <h3>Ensino Superior</h3>
-        <p>Análise e Desenvolvimento de Sistemas - cursando atualmente</p>
-        <h4>Cursos e idiomas</h4>
-        <div class="principal">
-           <div class="linhas">Fundamentos de TI - Hardware e Software</div>
-           <div class="linhas">Segurança em TI</div>
-           <div class="linhas">Inteligência Artificial</div>
-           <div class="linhas">Inglês Intermediário</div>
-           <div class="linhas">Espanhol Básico</div>
-        </div>
-
-    </section>
-    <section id = "portfolio">
-        <h2>Meu Portfólio</h2>
-        <p> Clique no botão abaixo para ir ao Repositório desejado</p>
-        <div class="principal">
-           <a href="https://github.com/Filipe-glitch/analise-modelagem-sistemas" target="_blank" class="linhas">Repositório de Modelagem de Sistemas</a>
-           <a href="https://github.com/Filipe-glitch/Html_css_javascript" target="_blank" class="linhas">Estudos HTML, CSS e JavaScript</a>
-           <a href="https://github.com/Filipe-glitch/estudos_csharp" target="_blank" class="linhas">Estudos C#</a>
-           <a href="https://github.com/Filipe-glitch/estudos_java" target="_blank" class="linhas">Estudos Java</a>
-        </div>
-    </section>
-    <section id = "contato">
-        <h2>Contato</h2>
-        <form class="formulario">
-           <label for="nome">Nome:</label>
-           <input type="text" id="nome" name="nome">
-           <br>
-           <label for="email">Email:</label>
-           <input type="text" id="email" name="email">
-           <br>
-           <label for="mensagem">Mensagem:</label>
-           <textarea id="mensagem" name="mensagem"></textarea>
-           <br>
-           <button type="button" onclick="enviarDados()">Enviar</button>
-        </form>
-    </section>
-<script src="script.js"></script>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>site_portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

@@ -1,67 +1,16 @@
-# 🌐 Portfólio Online
+# React + Vite
 
-Projeto de um portfólio pessoal desenvolvido utilizando **HTML, CSS e JavaScript**, com o objetivo de apresentar informações, projetos e habilidades de forma interativa.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Objetivo
+Currently, two official plugins are available:
 
-Criar uma página web responsiva e interativa para servir como portfólio profissional.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🛠️ Tecnologias utilizadas
+## React Compiler
 
-- HTML5
-- CSS3
-- JavaScript
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 📂 Estrutura do Projeto
+## Expanding the ESLint configuration
 
-O projeto é composto por:
-
-- Estruturas HTML para organização do conteúdo
-- Estilizações com CSS
-- Funcionalidades interativas com JavaScript
-
-## ⚙️ Funcionalidades
-
-✔️ Menu interativo  
-✔️ Alternância entre modo claro e escuro  
-✔️ Interações com o usuário (alertas e validações)  
-✔️ Navegação entre seções da página  
-
-## 💡 Conceitos aplicados
-
-### 🔹 HTML
-- Tags básicas (`div`, `section`, `br`)
-- Links (`<a href="">`)
-- Botões (`<button>`)
-- Labels (`label for`)
-- Organização semântica básica
-
-### 🔹 CSS
-- Box model (`padding`)
-- Layout (`display`, `gap`)
-- Controle de conteúdo (`overflow`)
-- Estilização de texto (`text-decoration`)
-- Organização visual da página
-
-### 🔹 JavaScript
-- Manipulação do DOM (`getElementById`)
-- Funções
-- Estruturas condicionais (`if`)
-- Retorno de funções (`return`)
-- Validação de dados (`trim`)
-- Interação com usuário (`alert`)
-- Alternância de tema (claro/escuro)
-
-## 📌 Aprendizados
-
-- Estruturação de páginas web
-- Estilização e organização visual com CSS
-- Interatividade com JavaScript
-- Manipulação básica do DOM
-
-## 📌 Melhorias futuras
-
-- Responsividade para dispositivos móveis
-- Integração com backend
-- Animações mais avançadas
-- Melhor organização do código
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
