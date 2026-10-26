@@ -1,5 +1,6 @@
 import React from 'react'
 import { portfolioItems } from '../data/data';
+import { ImGithub } from 'react-icons/im';
 
 const Portfolio = () => {
     return (
@@ -24,6 +25,16 @@ const Portfolio = () => {
                                     <h3 className='font-semibold text-lg text-white'>{item.title}</h3>
                                     <p className='text-slate-400 mt-2'>{item.category}</p>
                                 </div>
+
+                                {/* Parte de link com repositório */}
+                                {item.github && (
+                                    <a href={item.github} target='_black' rel='noopener noreferrer'
+                                    className='absolute top-3 right-3 p-2.5 bg-black/70 backdrop-blur-md rounded-full text-white hover:bg-teal-500 
+                                    hover:scale-110 transition-all duration-300 cursor-pointer shadow-md'
+                                    title='Ver repositório no Github'>
+                                        <ImGithub size={18} />
+                                    </a>
+                                )}
                             </div>
                         ))
                     }

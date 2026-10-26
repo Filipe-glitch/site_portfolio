@@ -5,6 +5,14 @@ import { LiaLinkedin } from 'react-icons/lia'
 import { BsTwitter, BsWhatsapp } from 'react-icons/bs'
 
 const Hero = () => {
+    // Função para o botão "veja meus projeto"
+    const scrollToPortfolio = () => {
+        const element = document.getElementById('portfolio');
+        if (element) {
+            element.scrollIntoView({behavior: 'smooth'});
+        }
+    };
+
     return (
         <Fragment>
             <section id="home" className='relative min-h-screen flex items-center justify-center pt-16 pb-20'>
@@ -25,11 +33,12 @@ const Hero = () => {
                         </div>                      
                         
                         <div className='mt-8 flex flex-col sm:flex-row gap-4'>
-                            <button className='px-6 py-2 cursor-pointer text-sm rounded-full bg-linear-to-r from-teal-400 to-teal-700 font-light 
+                            <button onClick={scrollToPortfolio} className='px-6 py-2 cursor-pointer text-sm rounded-full bg-linear-to-r from-teal-400 to-teal-700 font-light 
                             text-white hover:opacity-70 transition-opacity'>Veja meus projetos</button>
 
-                            <button className='px-6 py-2 cursor-pointer text-sm rounded-full bg-white/10 backdrop-blur-md font-light 
-                            text-white hover:opacity-70 transition-opacity'>Download CV</button>
+                            <a href={`${import.meta.env.BASE_URL}Filipe_curriculo.pdf`} target='_black' rel='noopener noreferrer'
+                            className='px-6 py-2.5 cursor-pointer text-sm rounded-full bg-white/10 backdrop-blur-md font-medium 
+                             text-white hover:bg-white/20 transition-all border border-white/20 text-center'>Download CV</a>
                         </div>
                     </div>
                 </div>

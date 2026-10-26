@@ -99,16 +99,19 @@ export const portfolioItems = [
     title: "Space Invaders",
     category: "Pygame + Python",
     image: spaceInvadersImg,
+    github: "https://github.com/Filipe-glitch/space-invaders-pygame",
   },
   {
     title: "Plataforma para Idosos",
     category: "HTML + CSS + JavaScript + UX/UI",
     image: plataformaIdososImg,
+    github: "https://github.com/Filipe-glitch/Plataforma-idosos-RJ",
   },
   {
     title: "SIS - Selo Infância Segura",
     category: "Lovable + TypeScript",
-    image: sisImg
+    image: sisImg,
+    github: "https://github.com/Filipe-glitch/selo-infancia-segura",
   },
 ];
 
