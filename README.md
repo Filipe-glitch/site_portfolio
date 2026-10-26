@@ -1,16 +1,24 @@
-# React + Vite
+# 🚀 Portfólio Pessoal - Filipe Rocha
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio desenvolvido em React para apresentar meus projetos, habilidades e trajetória na área de tecnologia, com interesse em desenvolvimento de software, aplicações web e soluções que gerem impacto positivo.
 
-Currently, two official plugins are available:
+## 🛠️ Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **React** - Construção de interfaces interativas.
+* **Vite** - Ferramenta de desenvolvimento e build.
+* **Tailwind CSS** - Estilização e criação de layouts responsivos.
+* **Web3Forms** - Integração do formulário de contato com envio de mensagens por e-mail.
+* **React Icons** - Biblioteca de ícones para a interface.
 
-## React Compiler
+## 📂 Principais Seções
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Início (Hero):** Apresentação pessoal com títulos animados e atalhos rápidos para o portfólio e currículo em PDF.
+* **Sobre mim:** Trajetória, formação e objetivos profissionais.
+* **Habilidades:** Tecnologias e ferramentas com as quais tenho contato.
+* **Experiência:** Formação acadêmica e experiência profissional.
+* **Portfólio:** Apresentação de projetos acadêmicos e pessoais.
+* **Contato:** Formulário e links para redes profissionais.
 
-## Expanding the ESLint configuration
+--- 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Desenvolvido por **Filipe Rocha**.
