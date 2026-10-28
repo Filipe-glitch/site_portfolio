@@ -21,14 +21,14 @@ const About = () => {
                             desenvolvimento de aplicações com React, Tailwind CSS, Python e Java, atuando 
                             com disciplina, trabalho em equipe e boa resolução de problemas.
                         </p>
-                        <div className="mt-8 grid grid-cols-2 gap-4 text-gray-300">
+                        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-300">
                             <div>
                                 <p>Nome:</p>
                                 <p className="font-medium text-white">Filipe</p>
                             </div>
                             <div>
                                 <p>Email:</p>
-                                <p className="font-medium text-white">filipe.devrocha@gmail.com</p>
+                                <p className="font-medium text-white wrap-break-word">filipe.devrocha@gmail.com</p>
                             </div>
                             <div>
                                 <p>Celular:</p>
